@@ -11,18 +11,21 @@
 
      <body> 
           
-          <div class="wrpper">
-             
-                @include('partials.nav')
+          
+               <div class="wrpper">
+                    
+                    @include('partials.nav')
 
-                @yield('content')
+                    @yield('content')
 
 
-                @include('partials.footer')
+                    @include('partials.footer')
+
+               </div>
   
-           </div>
+           
 
-           @include('partials.scripts')
+              @include('partials.scripts')
         
      </body>
    
