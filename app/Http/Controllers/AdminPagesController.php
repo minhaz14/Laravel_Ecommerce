@@ -11,7 +11,7 @@ class AdminPagesController extends Controller
         return view ('admin.pages.index');
     }
 
-    public function create()
+    public function product_create()
     {
         return view ('admin.pages.product.create');
     }
