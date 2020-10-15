@@ -12,7 +12,7 @@
      <body> 
           
           
-               <div class="wrpper">
+               <div >
                     
                     @include('partials.nav')
 
